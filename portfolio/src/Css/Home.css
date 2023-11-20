@@ -1,23 +1,18 @@
-  body {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.5));
-    padding: 2rem; 
-    font-family: "Open Sans", sans-serif;
+body {
     color: #fff;
   }
   .hero-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+  
+  }
+  .content-group {
+    margin-left: 10%;
+    margin-bottom: 5%;
   }
 
-  .content-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 6px;
-  }
-  
   .move-in {
     animation: fadeIn 1s ease-in-out;
   }

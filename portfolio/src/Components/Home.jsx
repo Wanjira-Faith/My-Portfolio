@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
 import Type from './Type';
 import '../Css/Home.css';
 
@@ -23,7 +23,7 @@ function Home() {
   return (
     <div>
       <div>
-        {/* <Navbar/> */}
+        <Navbar/>
       </div>
       <div className="hero-content">
         <div className='svg'>
