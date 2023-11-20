@@ -33,7 +33,7 @@
   }
   
   .nav-menu li a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
     text-decoration: none;
     color: #fff; 
@@ -41,7 +41,7 @@
   }
   
   .nav-menu li a:hover {
-    color:#be6adf; 
+    color: #66e6eb;
   }
 
   .hamburger {

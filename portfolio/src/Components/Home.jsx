@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import Navbar from './Navbar';
+import HomeImg from '../assets/download.png';
 import Type from './Type';
 import '../Css/Home.css';
 
@@ -26,6 +27,10 @@ function Home() {
         <Navbar/>
       </div>
       <div className="hero-content">
+      <div className='mask'>
+         <img className='home-img'
+         src={HomeImg} alt='homeimg'/>
+      </div>
         <div className='svg'>
           <Link to="hero-content" smooth={true} duration={500} onClick={handleClick}>
           </Link>

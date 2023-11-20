@@ -26,9 +26,7 @@ function Navbar() {
   return (
     <div className={color ? 'header header-bg' : 'header'}>
       <Link to='/' className='logo-link'>
-        <div className='mask'>
           <img className='logo-img' src={LogoImg} alt='logoimg' />
-        </div>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
