@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import Navbar from './Navbar';
-import HomeImg from '../assets/download.png';
+import HomeImg from '../assets/home.png';
 import Type from './Type';
 import '../Css/Home.css';
 
