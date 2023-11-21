@@ -4,7 +4,7 @@ body {
 
 .about-section {
     position: relative;
-    padding-top: 150px;
+    padding-top: 140px;
     padding-bottom: 30px;
     color: rgb(231, 223, 223);
     animation: slideInUp 1s ease-in-out;
@@ -36,11 +36,12 @@ body {
 .about-text {
   flex: 1; 
   font-size:larger;
+  line-height: 1.5rem;
 }
 
 .about-text h1 {
   font-size: 2.3em;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-align: center;
   color: rgba(20, 182, 182, 0.925);
 }
