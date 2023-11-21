@@ -80,11 +80,11 @@ body {
     margin: 15px;
     padding: 30px;
     opacity: 0.93;
-    border: 1.7px solid rgba(200, 137, 230, 0.637);
+    border: 1.7px solid rgba(137, 211, 230, 0.637);
     vertical-align: middle;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+    box-shadow: 4px 5px 4px 3px rgba(4, 135, 168, 0.137);
     overflow: hidden;
     transition: all 0.4s ease 0s;
   }
@@ -98,7 +98,7 @@ body {
   .tech-icons:hover {
     transform: scale(1.05);
     overflow: hidden;
-    border: 2.2px solid rgba(197, 115, 230, 0.883);
+    border: 2.2px solid rgba(115, 203, 230, 0.883);
   }
   .tech-icon-images {
     padding: 20px !;
