@@ -57,7 +57,8 @@ body {
 }
 
 .professional-skillset h1,
-.tools-used h1 {
+.tools-used h1, 
+.project-heading {
   font-size: 2em;
   margin-bottom: 20px;
 }
@@ -103,4 +104,9 @@ body {
   .tech-icon-images {
     padding: 20px !;
     line-height: 1.6 ;
+  }
+
+  .github-container {
+    text-align: center;
+    padding: 0px;
   }

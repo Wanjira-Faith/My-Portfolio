@@ -5,7 +5,7 @@ import Footer from './Footer';
 import laptopImg from '../assets/about.jpg';
 import Techstack from './Techstack';
 import Toolstack from './Toolstack';
-// import Github from './Github';
+import Github from './Github';
 import '../Css/About.css';
 
 function About() {
@@ -31,7 +31,7 @@ function About() {
             <h1>Tools I use</h1>
             <Toolstack />
           </div>
-          {/* <Github /> */}
+          <Github />
         </div>
       </div>
       <Footer /> 
