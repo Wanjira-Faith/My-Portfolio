@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import HomeImg from '../assets/home.png';
 import Type from './Type';
 import '../Css/Home.css';
+import Footer from './Footer';
 
 function Home() {
   const [animate, setAnimate] = useState(false);
@@ -47,9 +48,9 @@ function Home() {
           <div style={{ padding: 10, textAlign: "left", fontSize: "1.5rem" }}>
                 <Type />
               </div>
-        
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
