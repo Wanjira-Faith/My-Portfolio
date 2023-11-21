@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+.about-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  color: rgb(231, 223, 223);
+}
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1; 
+}
+
+.about-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-img {
+  flex: 1; 
+  text-align:center;
+}
+.about-activity {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.about-img img {
+  width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.professional-skillset,
+.tools-used {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.professional-skillset h1,
+.tools-used h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .about-img {
+    padding-top: 0;
+  }
+}
