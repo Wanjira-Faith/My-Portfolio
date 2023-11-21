@@ -4,7 +4,7 @@ import AboutCard from './AboutCard';
 import Footer from './Footer';
 import laptopImg from '../assets/about.jpg';
 import Techstack from './Techstack';
-// import Toolstack from './Toolstack';
+import Toolstack from './Toolstack';
 // import Github from './Github';
 import '../Css/About.css';
 
@@ -29,7 +29,7 @@ function About() {
           </div>
           <div className="tools-used">
             <h1>Tools I use</h1>
-            {/* <Toolstack /> */}
+            <Toolstack />
           </div>
           {/* <Github /> */}
         </div>
