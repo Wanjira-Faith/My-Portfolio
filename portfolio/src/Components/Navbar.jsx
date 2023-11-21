@@ -33,10 +33,10 @@ function Navbar() {
           <Link to='/'>Home </Link>
         </li>
         <li>
-          <Link to='/projects'>About</Link>
+          <Link to='/about'>About</Link>
         </li>
         <li>
-          <Link to='/about'>Projects </Link>
+          <Link to='/projects'>Projects </Link>
         </li>
         <li>
           <Link to='/contacts'>Contact </Link>
