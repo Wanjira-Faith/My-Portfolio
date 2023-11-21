@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import AboutCard from './AboutCard';
 import Footer from './Footer';
 import laptopImg from '../assets/about.jpg';
-// import Techstack from './Techstack';
+import Techstack from './Techstack';
 // import Toolstack from './Toolstack';
 // import Github from './Github';
 import '../Css/About.css';
@@ -25,7 +25,7 @@ function About() {
           </div>
           <div className="professional-skillset">
             <h1>Professional Skillset</h1>
-            {/* <Techstack /> */}
+            <Techstack />
           </div>
           <div className="tools-used">
             <h1>Tools I use</h1>
