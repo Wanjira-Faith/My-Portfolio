@@ -7,8 +7,8 @@ function Github() {
       <h1 className="project-heading">Days I Code</h1>
       <GitHubCalendar
         username="Wanjira-Faith"
-        blockSize={15}
-        blockMargin={5}
+        blockSize={16}
+        blockMargin={6}
         theme={{
           dark: ['#1A1A1A', '#4C8783', '#76BDBB', '#1A8995', '#489CA8'],
         }}          
