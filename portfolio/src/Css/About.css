@@ -1,13 +1,25 @@
 body {
     background-color: black;
 }
-.about-section {
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 30px;
-  color: rgb(231, 223, 223);
-}
 
+.about-section {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    color: rgb(231, 223, 223);
+    animation: slideInUp 1s ease-in-out;
+  }
+  
+@keyframes slideInUp {
+    from {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 .about-container {
   width: 90%;
   max-width: 1200px;
@@ -23,18 +35,18 @@ body {
 
 .about-text {
   flex: 1; 
-  font-size: large;
+  font-size:larger;
 }
 
 .about-text h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
   margin-bottom: 20px;
   text-align: center;
+  color: rgba(20, 182, 182, 0.925);
 }
 
 .about-img {
   flex: 1; 
-  text-align: center;
 }
 
 .about-activity {
@@ -44,9 +56,10 @@ body {
 }
 
 .about-img img {
-  width: 500px;
+  width: 95%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-left: 20%;
 }
 
 .professional-skillset,
@@ -59,15 +72,16 @@ body {
 .professional-skillset h1,
 .tools-used h1, 
 .project-heading {
-  font-size: 2em;
+  font-size: 2.3em;
   margin-bottom: 20px;
+  color: rgba(20, 182, 182, 0.925);
 }
 
 @media (max-width: 767px) {
-  .about-img {
-    padding-top: 0;
+    .about-img {
+      padding-top: 0;
+    }
   }
-}
 
 .techstack-container,
 .toolstack-container {
@@ -79,7 +93,7 @@ body {
   .tech-icons {
     font-size: 4.5em;
     margin: 15px;
-    padding: 30px;
+    padding: 27px;
     opacity: 0.93;
     border: 1.7px solid rgba(137, 211, 230, 0.637);
     vertical-align: middle;
@@ -102,11 +116,8 @@ body {
     border: 2.2px solid rgba(115, 203, 230, 0.883);
   }
   .tech-icon-images {
-    padding: 20px !;
+    padding: 20px ;
     line-height: 1.6 ;
   }
 
-  .github-container {
-    text-align: center;
-    padding: 0px;
-  }
+ 
