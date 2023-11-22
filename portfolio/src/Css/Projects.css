@@ -1,15 +1,19 @@
 .project-section {
     position: relative;
     padding-top: 150px;
-    padding-bottom: 30px;
-  
+    padding-bottom: 60px;  
   }
   
   .project-heading{
     text-align: center;
-    color: rgba(20, 182, 182, 0.925);
+    color: rgba(20, 182, 182, 0.973);
     font-size: 1.4rem;
-    padding: 10px;
+    margin-bottom: 25px;
+}
+.project-heading p{
+    color: #ffffffde;
+    margin: 5px;
+    font-weight: 500;
 }
   
   .row {

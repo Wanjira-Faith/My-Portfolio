@@ -10,7 +10,7 @@ function ProjectCard(props) {
         <p className="project-description">{props.description}</p>
         <div className="project-buttons">
           <a href={props.ghLink} target="_blank" className="project-button">
-            <i className="fa fa-github"></i> GitHub
+            <i className="fab fa-github"></i> GitHub
           </a>
           {props.demoLink && (
             <a href={props.demoLink} target="_blank" className="project-button">
