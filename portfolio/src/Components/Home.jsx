@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
+import React from 'react';
 import Navbar from './Navbar';
 import HomeImg from '../assets/home.png';
 import Type from './Type';
@@ -7,34 +6,15 @@ import '../Css/Home.css';
 import Footer from './Footer';
 
 function Home() {
-  const [animate, setAnimate] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setAnimate(true);
-    }, 100);
-  }, []);
-
-  function handleClick() {
-    scroll.scrollTo(600, {
-      duration: 1000,
-      smooth: true,
-    });
-  }
-
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
-      <div className="hero-content" onClick={handleClick}>
+      <Navbar />
+      <div className="hero-content">
         <div className='mask'>
           <img className='home-img' src={HomeImg} alt='homeimg' />
         </div>
-        <div className='svg'>
-        </div>
-        <div className={`content-group ${animate ? 'move-in' : 'move-off-screen'}`}>
-          <h1 id="name">Hi There!{" "}
+        <div className="content-group">
+          <h1 id="name">Hi There!{' '}
             <span id="wave" role="img" aria-labelledby="wave">
               👋🏻
             </span>
@@ -43,7 +23,7 @@ function Home() {
             I'm
             <strong className="main-name"> Wanjira Faith</strong>
           </h1>
-          <div style={{ padding: 10, textAlign: "left", fontSize: "1.5rem" }}>
+          <div style={{ padding: 10, textAlign: 'left', fontSize: '1.5rem' }}>
             <Type />
           </div>
         </div>
@@ -54,3 +34,4 @@ function Home() {
 }
 
 export default Home;
+

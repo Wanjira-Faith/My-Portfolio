@@ -20,39 +20,24 @@
     object-fit: cover;
   }
 
-  .svg {
-    position: absolute;
-    bottom: 20px;
-    cursor: pointer;
-  }
   .content-group {
     margin-left: 10%;
     margin-bottom: 5%;
     color: #fff; 
     z-index: 1;
-  }
-
-  .move-in {
-    animation: fadeIn 1s ease-in-out;
+    animation: slideInUp 1s ease-in-out; 
   }
   
-  @keyframes fadeIn {
+  @keyframes slideInUp {
     from {
+      transform: translateY(100px);
       opacity: 0;
-      transform: translateY(-20px);
     }
     to {
-      opacity: 1;
       transform: translateY(0);
+      opacity: 1;
     }
   }
-  
-  
-  .move-off-screen {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  
   #wave {
     animation-name: wave-animation; 
     animation-duration: 2.1s; 
@@ -111,4 +96,20 @@
     color:  #6adbdff1 !important;
   }
   
+  /* .home-img-clockwise {
+    animation: rotateImageClockwise 10s linear infinite;
+  }
   
+
+  @keyframes rotateImageClockwise {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+   */
