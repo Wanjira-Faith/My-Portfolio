@@ -4,7 +4,7 @@ import GitHubCalendar from 'react-github-calendar';
 function Github() {
   return (
     <div className="github-container">
-      <h1 className="project-heading">Days I Code</h1>
+      <h1 className="github-heading">Days I Code</h1>
       <GitHubCalendar
         username="Wanjira-Faith"
         blockSize={16}
