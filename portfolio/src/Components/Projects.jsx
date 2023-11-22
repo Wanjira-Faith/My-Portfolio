@@ -24,7 +24,7 @@ function Projects() {
           <div className="row">
             <ProjectCard
               imgPath={eventImg}
-              title="EvenHub"
+              title="EventHub"
               description="EventHub is a dynamic, web-based event management application designed to revolutionize event creation, management, and attendance. Employing React on the frontend and Flask on the backend, this application seamlessly combines innovation with robust technology. It provides a user-friendly environment for effortless user registration, intuitive event creation, browsing functionalities, and secure authentication."
               ghLink="https://github.com/LKiok/Occasional-sync-frontend"
               demoLink="https://nimble-strudel-d6a22b.netlify.app/"
