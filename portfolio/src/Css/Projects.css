@@ -75,6 +75,7 @@
   .project-description {
     font-size: 1rem;
     margin-bottom: 15px;
+    line-height: 1.5rem;
   }
   
   .project-buttons {
@@ -96,7 +97,7 @@
     margin-right: 8px;
   }
   
-  /* Style for responsive design */
+  /* responsive design */
   @media (max-width: 768px) {
     .project-card-view {
       width: 100%;
