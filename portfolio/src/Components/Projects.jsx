@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import eventImg from '../assets/event.jpg';
 import powerImg from '../assets/power.jpg';
 import robotImg from '../assets/robot.jpg';
-import projectsImg from '../assets/projects.jpg';
+import globalImg from '../assets/global.jpg';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import '../Css/Projects.css';
@@ -38,8 +38,8 @@ function Projects() {
               demoLink=""
             />
              <ProjectCard
-              imgPath={projectsImg}
-              title="Global Wander"
+              imgPath={globalImg}
+              title="Global Wonder"
               description="Global Wander unveils an innovative Airbnb app crafted with ReactJS to revolutionize travel planning.  With advanced API integration and seamless data fetching, our platform offers a user-centric experience for simplified journey planning and accommodation booking. Explore diverse destinations, discover dream stays, and engage with real-time data—all powered by the dynamic capabilities of ReactJS." 
               ghLink="https://github.com/KIPROTYCH/phase2-GroupB-Project"
               demoLink="https://phase2-group-b-project.vercel.app/"
