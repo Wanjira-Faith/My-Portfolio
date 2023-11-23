@@ -39,6 +39,9 @@ function Navbar() {
           <Link to='/projects'>Projects </Link>
         </li>
         <li>
+          <Link to='/resume'> Resume </Link>
+        </li>
+        <li>
           <Link to='/contacts'>Contact </Link>
         </li>
       </ul>

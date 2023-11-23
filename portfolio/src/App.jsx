@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import Resume from './Components/Resume';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/resume' element={<Resume />} />
         {/* <Route path='/contacts' element={<Contact />} /> */}
         <Route path='/about' element={<About />} />
       </Routes>
