@@ -29,6 +29,7 @@
     color: #ffffffde;
     margin: 5px;
     font-weight: 500;
+    margin-bottom: 30px;
   }
   
   .row {
@@ -97,10 +98,30 @@
     margin-right: 8px;
   }
   
-  /* responsive design */
-  @media (max-width: 768px) {
-    .project-card-view {
-      width: 100%;
-    }
+/* Responsive design for smaller screens */
+@media (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-card-view {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-heading {
+    font-size: 1.6rem;
+  }
+
+  .project-title {
+    font-size: 1.7rem;
+  }
+
+  .project-details {
+    padding: 20px;
   }
   
+}
