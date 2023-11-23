@@ -2,10 +2,9 @@
     position: relative;
     padding-top: 150px;
     padding-bottom: 60px;  
-    animation: slideInDown 0.5s ease-in-out forwards; 
+    animation: slideInDown 0.6s ease-in-out forwards; 
     will-change: transform, opacity;
   }
-  
   
   @keyframes slideInDown {
     0% {
@@ -47,10 +46,9 @@
     transition: all 0.5s ease 0s;
     height: 100%;
     margin: 20px;
-    width: 90%;
+    width: 90%;   
   }
   
-
   .project-card-view:hover {
     transform: scale(1.02);
     overflow: hidden;
