@@ -28,9 +28,11 @@ const Contact = () => {
       confirmButtonText: 'Nice',
       confirmButtonColor: '#f1cc17',
     });
+
+     // reset the form after successful submission
+     setFormData({ name: "", email: "", subject: "", message: "" });
   };
   
-
   return (
     <div>
       <Navbar />
