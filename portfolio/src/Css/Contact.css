@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 20px;
   padding-top: 140px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   animation: slideInDown 0.5s ease-in-out forwards;
   will-change: transform, opacity;
 }
@@ -31,6 +31,7 @@
   font-size: 1.2rem;
   text-align: center;
   color: #ffffffd2;
+  margin-bottom: 25px;
 }
 
 .contact-form-container form {
