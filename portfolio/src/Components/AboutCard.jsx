@@ -8,7 +8,7 @@ function AboutCard() {
       <div className="card-body">
         <blockquote className="blockquote">
           <p>
-            I'm Wanjira, a passionate Software Developer based in Nairobi, Kenya. I specialize in crafting cutting-edge solutions and translating imaginative concepts into robust and efficient code.
+            My name is Wanjira, a passionate Software Developer based in Nairobi, Kenya. I specialize in crafting cutting-edge solutions and translating imaginative concepts into robust and efficient code.
             <br />
             Throughout my professional journey, I've navigated through a diverse array of challenging projects, elevating my mastery in technologies such as JavaScript, React, Node.js. 
             <br/>   

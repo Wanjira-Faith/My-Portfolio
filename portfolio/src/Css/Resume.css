@@ -22,7 +22,7 @@
 .resume-container {
   margin-top: 20px;
   padding: 10px;
-  text-align: center; /* Center text in the container */
+  text-align: center; 
 }
 
 .resume-image {
@@ -30,7 +30,7 @@
   height: auto;
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  margin-bottom: 20px; /* Add margin for spacing */
+  margin-bottom: 20px; 
 }
 
 .download-button-container {
