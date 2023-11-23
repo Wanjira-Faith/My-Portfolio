@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Resume from './Components/Resume';
+import Contact from './Components/Contact';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -21,10 +22,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/resume' element={<Resume />} />
-        {/* <Route path='/contacts' element={<Contact />} /> */}
-        <Route path='/about' element={<About />} />
+        <Route path='/contacts' element={<Contact />} />
       </Routes>
     </Router>
   );
