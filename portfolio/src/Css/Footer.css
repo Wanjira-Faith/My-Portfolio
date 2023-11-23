@@ -40,13 +40,14 @@
     margin-right: 0; 
   }
   
-  .footer-socials li a {
+  .footer-socials li i {
     color: #ffffffd3;
     font-size: 22px;
-    transition: all 0.3s ease-in-out;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer;
   }
   
- .footer-socials li a:hover {
-  color: rgb(25, 178, 189);
-}
+  .footer-socials li i:hover {
+    transform: scale(1.2); 
+  }

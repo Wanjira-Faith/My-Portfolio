@@ -10,10 +10,9 @@
   }
   
   .header-bg {
-    background-color: #1a272ea9 ;
+    background-color: rgba(0,0,0,0.85);
     transition: all 0.3s ease-out 0s ;
-    box-shadow: 0px 10px 10px 0px rgba(5, 22, 29, 0.171) ;
-    backdrop-filter: blur(15px) ;
+    backdrop-filter: blur(50px) ;
   }
   
   .logo-link {

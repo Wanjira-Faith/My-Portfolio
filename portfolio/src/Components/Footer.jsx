@@ -16,17 +16,17 @@ function Footer() {
         <div className="footer-socials">
           <ul>
             <li>
-              <a href="https://github.com/Wanjira-Faith" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Wanjira-Faith" target="_blank" >
                 <i className="fab fa-github-square"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/wanjiraq" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/wanjiraq" target="_blank" >
                 <i className="fab fa-twitter-square"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/wanjira-njuguna-8997a3256" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/wanjira-njuguna-8997a3256" target="_blank">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
