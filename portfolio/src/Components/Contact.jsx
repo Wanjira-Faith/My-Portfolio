@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FaGithub, FaTwitter, FaLinkedin, FaShareAlt } from "react-icons/fa";
+import Swal from 'sweetalert2';
+import { FaShareAlt } from "react-icons/fa";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -9,7 +10,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "", // Added subject field
+    subject: "", 
     message: "",
   });
 
@@ -19,9 +20,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, you can send data to a server or do whatever you need
-    console.log(formData);
+  
+    Swal.fire({
+      title: 'Success!',
+      text: 'Message sent successfully!',
+      icon: 'success',
+      confirmButtonText: 'Nice',
+      confirmButtonColor: '#f1cc17',
+    });
   };
+  
 
   return (
     <div>
@@ -112,4 +120,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
