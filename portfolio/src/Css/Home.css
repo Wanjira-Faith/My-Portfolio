@@ -25,7 +25,7 @@
     margin-bottom: 5%;
     color: #fff; 
     z-index: 1;
-    animation: slideInDown 1.2s ease-in-out forwards; 
+    animation: slideInDown 1s ease-in-out forwards; 
     will-change: transform, opacity;
   }
   
