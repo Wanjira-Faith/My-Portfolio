@@ -10,9 +10,7 @@
     justify-content: space-between;
     align-items: center; 
     width: 100%;
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    /* padding: 0 10px; */
+
   }
 
 .footer-copywright {
@@ -51,3 +49,19 @@
   .footer-socials li i:hover {
     transform: scale(1.2); 
   }
+/* Media query for small screens (mobile) */
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-socials ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-socials li {
+    margin-right: 10px;
+  }
+}
