@@ -12,7 +12,7 @@
   .header-bg {
     background-color: rgba(0,0,0,0.85);
     transition: all 0.3s ease-out 0s ;
-    backdrop-filter: blur(50px) ;
+    backdrop-filter: blur(20px) ;
   }
   
   .logo-link {
