@@ -6,3 +6,12 @@
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.5)); */
 }
 
+body,
+html {
+  height: 100%;
+}
+
+.main-container {
+  min-height: 100vh; 
+}
+
