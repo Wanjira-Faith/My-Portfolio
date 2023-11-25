@@ -31,6 +31,7 @@ body {
 
 .about-section-header {
   display: flex;
+  flex-direction: column; 
   justify-content: space-between;
   align-items: center;
 }
@@ -50,6 +51,7 @@ body {
 
 .about-img {
   flex: 1; 
+  margin-top: 30px; 
 }
 
 .about-activity {
@@ -127,21 +129,12 @@ body {
   }
   
  /* Mobile responsiveness */
-@media (max-width: 767px) {
+@media (min-width: 768px) {
+  .about-section-header {
+    flex-direction: row; 
+  }
+
   .about-img {
-      padding-top: 0;
-  }
-
-  .about-text {
-      font-size: 1rem; 
-  }
-
-  .about-text h1 {
-      font-size: 1.6em; 
-      margin-bottom: 15px;
-  }
-
-  .about-img img {
-      margin-left: 0;
+    margin-left: 20px;
   }
 }
