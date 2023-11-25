@@ -23,7 +23,7 @@ body {
     }
   }
 .about-container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -148,9 +148,8 @@ body {
     .about-section {
       padding-top: 100px;
     }
-    .about-container {
-      width: 85%;
-    }
-   
+   .about-container {
+    width: 85%;
+   }
   }
 }
