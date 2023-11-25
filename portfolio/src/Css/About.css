@@ -145,5 +145,8 @@ body {
     .about-text h1 {
       font-size: 1.7em;
     }
+    .about-text {
+      font-size:large;
+    }
   }
 }

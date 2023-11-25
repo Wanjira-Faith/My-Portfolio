@@ -107,19 +107,11 @@
   .project-card-view {
     width: 90%;
   }
-}
-
-@media (max-width: 480px) {
   .project-heading {
-    font-size: 1.6rem;
+    font-size: 1.2em;
   }
-
   .project-title {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
-  .project-details {
-    padding: 20px;
-  }
-  
 }
