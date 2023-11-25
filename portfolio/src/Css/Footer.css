@@ -49,8 +49,8 @@
   .footer-socials li i:hover {
     transform: scale(1.2); 
   }
-/* Media query for small screens (mobile) */
 
+/* Media query for small screens (mobile) */
 @media screen and (max-width: 768px) {
   .footer-container {
     flex-direction: column;
