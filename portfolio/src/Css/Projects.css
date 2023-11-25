@@ -108,10 +108,13 @@
     width: 90%;
   }
   .project-heading {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .project-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+  .project-section {
+    padding-top: 110px;
   }
 
 }
