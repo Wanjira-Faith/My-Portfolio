@@ -138,10 +138,6 @@ body {
       margin-left: 0;
     }
   
-    .about-img img {
-      width: 100%; 
-    }
-  
     .about-text h1 {
       font-size: 1.7em;
       margin-bottom: 15px;
@@ -152,5 +148,9 @@ body {
     .about-section {
       padding-top: 100px;
     }
+    .about-container {
+      width: 85%;
+    }
+   
   }
 }
