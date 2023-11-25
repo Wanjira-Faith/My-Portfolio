@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Css/NavbarStyles.css';
-import LogoImg from '../assets/logo.jpg';
+import LogoImg from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
