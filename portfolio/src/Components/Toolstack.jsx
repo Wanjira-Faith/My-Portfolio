@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiRender} from 'react-icons/si';
+import { SiNetlify, SiRender} from 'react-icons/si';
 import { SiGithub } from 'react-icons/si';
 import { SiVisualstudiocode, SiPostman, SiSlack, SiVercel } from 'react-icons/si';
 
@@ -16,7 +16,7 @@ function Toolstack() {
         <SiPostman />
       </div>
       <div className="tech-icons">
-        <SiSlack />
+        <SiNetlify />
       </div>
       <div className="tech-icons">
         <SiVercel />
