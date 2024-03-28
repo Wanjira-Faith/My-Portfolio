@@ -1,5 +1,5 @@
 import React from "react";
-import wanjiraImage from '../assets/Wanjira.jpg';
+import wanjiraImage from '../assets/Wanjira.png';
 import { AiOutlineDownload } from 'react-icons/ai';
 import Navbar from './Navbar'; 
 import Footer from './Footer'; 
